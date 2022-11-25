@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link type = "image/x-icon" rel = "shortcut icon" href="static/imagens/favicon_io/favicon.ico"> -->
+    <link type = "image/x-icon" rel = "shortcut icon" href="{{url_for ('static', filename='imagens/favicon_io/favicon.ico')}}">
+    <link type = "text/css" rel = "stylesheet" href="{{url_for ('static', filename='css/estilos.css')}}">
+</head>
+<body class="bg1">
+    <div id="centralizado">
+        <p style="text-align:left;">
+            <img src="static/imagens/logo.png" alt="Unes Universidade">
+
+            <span style="float:right;">
+                <a href="index"> Home |</a>
+                <a href="quemsomos" target="_blank"> Quem somos |</a>
+                <a href="contato" target="_blank"> Contato |</a>
+                <a href="visualizar" target="_blank"> Visualizar |</a>
+            </span>
+        </p>
+    </div>
+    
+    <div id="capa">
+        <picture>
+            <source media = "(max-width: 750px)" srcset = "static/imagens/capa450x207.png" type = "image/png">
+            <img src = "static/imagens/capa900x414.png" alt = "Capa" >
+        </picture>
+    </div>
+
+    <div id="texto">
+    <h2>
+        Sobre a universidade
+    </h2>
+    
+    <p>
+        Lorem <strong>ipsum dolor</strong> sit <em>amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+
+    <p>
+        Lorem <strong>ipsum dolor</strong> sit <em>amet</em>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    </div>
+
+    <div id="centralizado">
+        <h4>
+        Todos os direitos reservados
+        </h4>
+    </div>
+    
+</body>
+</html>

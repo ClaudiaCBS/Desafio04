@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <!-- <link type = "image/x-icon" rel = "shortcut icon" href="static/imagens/favicon_io/favicon.ico"> -->
+    <link type = "image/x-icon" rel = "shortcut icon" href="{{url_for ('static', filename='imagens/favicon_io/favicon.ico')}}">
+    <link type = "text/css" rel = "stylesheet" href="{{url_for ('static', filename='css/estilos.css')}}">
+</head>
+<body class="bg2">
+    <div id="centralizado">
+        <p style="text-align:left;">
+            <img src="static/imagens/logo.png" alt="Unes Universidade">
+
+            <span style="float:right;">
+                <a href="index" target="_blank"> Home |</a>
+                <a href="quemsomos" target="_blank"> Quem somos |</a>
+                <a href="contato"> Contato |</a>
+                <a href="visualizar" target="_blank"> Visualizar |</a>
+            </span>
+        </p>
+    </div>
+    
+    <div id="texto">
+    <h2>
+        Entre em contato
+    </h2>
+    
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <hr>
+    </hr>  
+
+    <h2>
+        Login
+    </h2>
+
+    <form method="POST">
+        Seu email: <br>
+        <input id="email" type="email" name="email"><br>
+        Assunto: <br>
+        <input id="assunto" type="text" name="assunto"><br>
+        Descrição: <br>
+        <textarea id="descricao" name="descricao"></textarea><br>
+        <button type="submit" value="Enviar">Enviar</button><br>
+    </form>
+    </div>
+    
+    <div id="centralizado">
+        <h4>
+        Todos os direitos reservados
+        </h4>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+.bg1 {
+    background-image: url(../imagens/fundo.png);
+} 
+
+.bg2 {
+    background-image: url(../imagens/fundo2.png);
+} 
+
+#centralizado {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#texto {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#capa {
+    margin: 0 auto;
+    text-align: center;
+}
+
