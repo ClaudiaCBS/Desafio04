@@ -17,6 +17,12 @@ def contato():
         insert(email, assunto, descricao)
     return render_template("contato.html")
 
+@app.route('/delete/<id>', methods=['POST', 'GET'])
+def delete(id):
+    dell(id)
+    return redirect('/visualizar')
+
+
 
 @app.route('/quemsomos')
 def quem_somos():

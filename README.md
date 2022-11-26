@@ -8,9 +8,16 @@ Requisitos:
 • Dividir o arquivo .py em (Aplicação, Rotas e Conexão com o banco de dados)
 
 
-Passo-a-Passo de como abrir: Clone o repositório para o seu computador, abra o repositório com o VS Code, abra o terminal, troque para o cmd e use esse comando:
+Passo-a-Passo de como abrir: Clone o repositório para o seu computador, abra o repositório com o VS Code, abra o terminal.
 
-venv\Scripts\activate && python app.py
+Delete a pasta venv.
+Crie ambiente virtual:
+
+py -m venv venv && venv\Scripts\activate 
+
+Instalar os pacotes:
+
+pip install -r Req.txt && python.exe -m pip install --upgrade pip && pip install mysql-connector-python && flask --app app.py --debug run
 
 Para desativar:
 
